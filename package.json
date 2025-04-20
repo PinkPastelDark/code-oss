@@ -1,0 +1,23 @@
+{
+  "name": "pinkpasteldark",
+  "displayName": "PinkPastelDark",
+  "description": "Pink Pastel Dark theme",
+  "repository": "https://github.com/PinkPastelDark/code-oss",
+  "license": "CC BY-NC-ND 4.0",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PinkPastelDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PinkPastelDark-color-theme.json"
+      }
+    ]
+  }
+}

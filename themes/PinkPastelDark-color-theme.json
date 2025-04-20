@@ -1,0 +1,168 @@
+{
+	"name": "PinkPastelDark",
+	"colors": {
+		"editor.background": "#1f1a1b",
+		"editor.foreground": "#ebe0e1",
+        "titleBar.activeBackground": "#1f1a1b",
+		"titleBar.activeForeground": "#ebe0e1",
+        "titleBar.inactiveBackground": "#1f1a1b",
+		"activityBarBadge.background": "#ffb0cb",
+		"sideBarTitle.foreground": "#ffd9e3",
+		"activityBar.background": "#1f1a1b",
+		"activityBar.foreground": "#ffd9e3",
+		"statusBar.background": "#1f1a1b",
+		"statusBar.foreground": "#ffd9e3",
+		"sideBar.background": "#1f1a1b",
+		"list.activeSelectionBackground": "#ffb0cb0d",
+		"button.background": "#ffb0cb",
+		"input.background": "#1f1a1b",
+		"editorGroupHeader.tabsBackground": "#1f1a1b",
+		"statusBarItem.remoteBackground": "#1f1a1b"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#77767b"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": ["invalid", "invalid.illegal"],
+			"settings": {
+				"foreground": "#ffb4a9"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#dc8add"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#99c1f1"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#62a0ea"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "#8ff0a4"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php"
+			],
+			"settings": {
+				"foreground": "#f8e45c"
+			}
+		},
+		{
+			"name": "Number, Constant",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape"
+			],
+			"settings": {
+				"foreground": "#ffbe6f"
+			}
+		},
+		{
+			"name": "CSS Properties",
+			"scope": ["support.type.property-name"],
+			"settings": {
+				"foreground": "#b2ccd6"
+			}
+		},
+		{
+			"name": "JSON Keys",
+			"scope": ["support.type.property-name.json"],
+			"settings": {
+				"foreground": "#c061cb"
+			}
+		},
+		{
+			"name": "Markdown Headings",
+			"scope": ["markup.heading"],
+			"settings": {
+				"foreground": "#efbc94"
+			}
+		},
+		{
+			"name": "Diff Inserted",
+			"scope": ["markup.inserted"],
+			"settings": {
+				"foreground": "#57e389"
+			}
+		},
+		{
+			"name": "Diff Deleted",
+			"scope": ["markup.deleted"],
+			"settings": {
+				"foreground": "#f66151"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": ["string.regexp"],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "URLs",
+			"scope": ["*url*", "*link*", "*uri*"],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#62a0ea"
+			}
+		}
+	]
+}
